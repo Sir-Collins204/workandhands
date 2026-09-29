@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Work&Hands professional cleaning, domestic and property care services."
+    />
+    <title>Book a Service | Work&Hands</title>
+    <link rel="icon" type="image/png" href="../images/logo-no-words.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+  <body>
+    <div id="site-nav"></div>
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">Book a service</span>
+          <h1>Tell us what you'd like us to shine.</h1>
+          <p>
+            Complete the request below. This demo form collects your
+            requirements and shows the interactive booking experience.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="form-wrap reveal">
+            <form id="bookingForm">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="bookName" name=>Full name</label
+                  ><input id="bookName" name="bookName" required />
+                </div>
+                <div class="field">
+                  <label for="bookPhone">Phone number</label
+                  ><input id="bookPhone" name="bookPhone" type="tel" required />
+                </div>
+                <div class="field">
+                  <label for="bookEmail">Email</label
+                  ><input id="bookEmail" name="bookEmail" type="email" required />
+                </div>
+                <div class="field">
+                  <label for="bookService">Service</label
+                  ><select id="bookService" name="bookService" required>
+                    <option value="">Choose a service</option>
+                    <option>Home cleaning</option>
+                    <option>Churche cleaning</option>
+                    <option>Business/Office cleaning</option>
+                    <option>Yards/Garden maintanance</option>
+                    <option>Pre-School Cleaning</option>
+                    <option>Car Wash</option>
+                    <option>Fumigation</option>
+                    <option>Need a Domestic Worker</option>
+                    <option>Laundry</option>
+                    <option>Windows cleaning</option>
+                    <option>Curtains</option>
+                    <option>Dishes</option>
+                    <option>Cupboard Cleaning</option>
+                    <option>Cupboard Organising / Grocery Packing</option>
+                    <option>Wardrobe Organising</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="bookDate">Preferred date</label
+                  ><input id="bookDate" name="bookDate" type="date" required />
+                </div>
+                <div class="field">
+                  <label for="bookTime">Preferred time</label
+                  ><input id="bookTime" name="bookTime" type="time" required />
+                </div>
+                <div class="field full">
+                  <label for="bookAddress">Service address</label
+                  ><input
+                    id="bookAddress"
+                    name="bookAddress"
+                    placeholder="Where should we come?"
+                    required
+                  />
+                </div>
+                <div class="field full">
+                  <label for="bookNotes">Tell us more</label
+                  ><textarea
+                    id="bookNotes"
+                    name="bookNotes"
+                    placeholder="Size of property, number of rooms, special requirements, etc."
+                  ></textarea>
+                </div>
+              </div>
+              <div class="form-footer">
+                <span class="form-note"
+                  >We'll contact you to confirm availability and details.</span
+                ><button class="btn btn-primary" type="submit">
+                  Request Booking <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+              <p id="results"></p> 
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

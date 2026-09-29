@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Work&Hands professional cleaning, domestic and property care services."
+    />
+    <title>Contact | Work&Hands</title>
+    <link rel="icon" type="image/png" href="../images/logo-no-words.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+  </head>
+  <body>
+    <div id="site-nav"></div>
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <span class="eyebrow">Contact Work&Hands</span>
+          <h1>Let's make your space shine.</h1>
+          <p>
+            Have a question, need a quote or want to discuss a service? Send us
+            a message.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <h3>Phone</h3>
+              <p>+27 78 732 1699</p>
+              <p>+27 82 423 5466</p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <h3>WhatsApp</h3>
+              <p>+27 78 732 1699</p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-regular fa-envelope"></i>
+              <h3>Email</h3>
+              <p>workandhands@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>Address</h3>
+              <p>
+                146, 18th Avenue Street <br />Extension 7, 9154
+                <br />Attredgeville, Pretoria West
+              </p>
+            </div>
+          </div>
+          <div class="form-wrap reveal">
+            <div class="section-head" style="margin-bottom: 25px">
+              <span class="eyebrow">Send a message</span>
+              <h2>How can we help?</h2>
+            </div>
+            <form id="contactForm">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="contactName">Full name</label
+                  ><input id="contactName" name="fullname" required />
+                </div>
+                <div class="field">
+                  <label for="contactEmail">Email</label
+                  ><input type="email" name="email" id="contactEmail" required />
+                </div>
+                <div class="field full">
+                  <label for="contactSubject">Subject</label
+                  ><input id="contactSubject" name="subject" required />
+                </div>
+                <div class="field full">
+                  <label for="contactMessage">Message</label
+                  ><textarea id="contactMessage" name="contactMessage" required></textarea>
+                </div>
+              </div>
+              <div class="form-footer">
+                <span class="form-note"
+                  >We aim to respond as soon as possible.</span
+                ><button class="btn btn-primary" type="submit">
+                  Send Message <i class="fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+              <p id="conResults"></p> 
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
