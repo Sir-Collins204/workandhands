@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand">
-            <img src=../"images/logo-no-words.png" alt="Work&Hands logo">
+            <img src="../images/logo-no-words.png" alt="Work&Hands logo">
             <p>WORKANDHANDS-CLEANING SERVICES PROVIDERS (Pty) LTD 2026/07/24.</p>
             <p>Tracking number: 9465762928</p>
             <div class="socials">
