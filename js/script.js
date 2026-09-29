@@ -17,58 +17,58 @@ document.addEventListener("DOMContentLoaded", () => {
     <a class="skip-link" href="#main-content">Skip to content</a>
     <nav class="site-nav" aria-label="Main navigation" id="siteNav">
       <div class="nav-inner">
-        <a class="brand" href="${pageUrl("")}" aria-label="Work&Hands home">
+        <a class="brand" href="${pageUrl("/")}" aria-label="Work&Hands home">
           <img src="${pageUrl("images/logo-no-words.png")}" alt="logo"/>
           <span class="brand-text">WORK&<em>HANDS</em></span>
         </a>
 
         <div class="nav-links" id="navLinks">
           <div class="nav-item">
-            <a class="nav-link" href="${pageUrl("")}">Home</a>
+            <a class="nav-link" href="${pageUrl("/")}">Home</a>
           </div>
 
           <div class="nav-item">
-            <a class="nav-link" href="${pageUrl("about/")}">About</a>
+            <a class="nav-link" href="${pageUrl("/about")}">About</a>
           </div>
 
           <div class="nav-item has-dropdown">
-            <a class="nav-link" href="${pageUrl("services/")}" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="${pageUrl("/services")}" aria-haspopup="true" aria-expanded="false">
               Services
               <span class="drop-arrow"><i class="fa-solid fa-chevron-down"></i></span>
             </a>
             <div class="dropdown">
-              <a href="${pageUrl("services/")}"><i class="fa-solid fa-layer-group"></i> All Services</a>
-              <a href="${pageUrl("weclean/")}"><i class="fa-solid fa-spray-can-sparkles"></i> Cleaning</a>
-              <a href="${pageUrl("laundry-services/")}"><i class="fa-solid fa-shirt"></i> Laundry</a>
-              <a href="${pageUrl("other-services/")}"><i class="fa-solid fa-broom"></i> Other Services</a>
+              <a href="${pageUrl("/services")}"><i class="fa-solid fa-layer-group"></i> All Services</a>
+              <a href="${pageUrl("/weclean")}"><i class="fa-solid fa-spray-can-sparkles"></i> Cleaning</a>
+              <a href="${pageUrl("/laundry-services")}"><i class="fa-solid fa-shirt"></i> Laundry</a>
+              <a href="${pageUrl("/other-services")}"><i class="fa-solid fa-broom"></i> Other Services</a>
             </div>
           </div>
 
           <div class="nav-item has-dropdown">
-            <a class="nav-link" href="${pageUrl("domestic-work/")}" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="${pageUrl("/domestic-work")}" aria-haspopup="true" aria-expanded="false">
               Domestic Work
               <span class="drop-arrow"><i class="fa-solid fa-chevron-down"></i></span>
             </a>
             <div class="dropdown">
-              <a href="${pageUrl("domestic-work/")}"><i class="fa-solid fa-house-chimney"></i> Domestic Work</a>
-              <a href="${pageUrl("washing/")}"><i class="fa-solid fa-soap"></i> Washing</a>
-              <a href="${pageUrl("iron/")}"><i class="fa-solid fa-fire"></i> Ironing</a>
-              <a href="${pageUrl("folding/")}"><i class="fa-solid fa-layer-group"></i> Folding</a>
-              <a href="${pageUrl("windows/")}"><i class="fa-solid fa-border-all"></i> Windows</a>
-              <a href="${pageUrl("curtains/")}"><i class="fa-solid fa-window-restore"></i> Curtains</a>
-              <a href="${pageUrl("dishes/")}"><i class="fa-solid fa-utensils"></i> Dishes</a>
-              <a href="${pageUrl("cupboard-cleaning/")}"><i class="fa-solid fa-box-open"></i> Cupboard Cleaning</a>
-              <a href="${pageUrl("cupboard-organising/")}"><i class="fa-solid fa-boxes-stacked"></i> Cupboard Organising</a>
-              <a href="${pageUrl("wardrobe-organising/")}"><i class="fa-solid fa-shirt"></i> Wardrobe Organising</a>
+              <a href="${pageUrl("/domestic-work/")}"><i class="fa-solid fa-house-chimney"></i> Domestic Work</a>
+              <a href="${pageUrl("/washing/")}"><i class="fa-solid fa-soap"></i> Washing</a>
+              <a href="${pageUrl("/iron/")}"><i class="fa-solid fa-fire"></i> Ironing</a>
+              <a href="${pageUrl("/folding/")}"><i class="fa-solid fa-layer-group"></i> Folding</a>
+              <a href="${pageUrl("/windows/")}"><i class="fa-solid fa-border-all"></i> Windows</a>
+              <a href="${pageUrl("/curtains/")}"><i class="fa-solid fa-window-restore"></i> Curtains</a>
+              <a href="${pageUrl("/dishes/")}"><i class="fa-solid fa-utensils"></i> Dishes</a>
+              <a href="${pageUrl("/cupboard-cleaning/")}"><i class="fa-solid fa-box-open"></i> Cupboard Cleaning</a>
+              <a href="${pageUrl("/cupboard-organising/")}"><i class="fa-solid fa-boxes-stacked"></i> Cupboard Organising</a>
+              <a href="${pageUrl("/wardrobe-organising/")}"><i class="fa-solid fa-shirt"></i> Wardrobe Organising</a>
             </div>
           </div>
 
           <div class="nav-item">
-            <a class="nav-link" href="${pageUrl("booking/")}">Book a Service</a>
+            <a class="nav-link" href="${pageUrl("/booking/")}">Book a Service</a>
           </div>
 
           <div class="nav-item">
-            <a class="nav-link" href="${pageUrl("contact/")}">Contact</a>
+            <a class="nav-link" href="${pageUrl("/contact/")}">Contact</a>
           </div>
         </div>
 
@@ -99,26 +99,26 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="footer-col">
             <h3>Services</h3>
             <ul>
-              <li><a href="${pageUrl("cleaning/")}">Cleaning</a></li>
-              <li><a href="${pageUrl("churches/")}">Churches</a></li>
-              <li><a href="${pageUrl("offices/")}">Business/Offices</a></li>
-              <li><a href="${pageUrl("yards-gardens/")}">Yards/Gardens</a></li>
-              <li><a href="${pageUrl("preschools/")}">Pre-Schools</a></li>
-              <li><a href="${pageUrl("car-cleaning/")}">Car Cleaning</a></li>
-              <li><a href="${pageUrl("fumigation/")}">Fumigation</a></li>
+              <li><a href="${pageUrl("/cleaning/")}">Cleaning</a></li>
+              <li><a href="${pageUrl("/churches/")}">Churches</a></li>
+              <li><a href="${pageUrl("/offices/")}">Business/Offices</a></li>
+              <li><a href="${pageUrl("/yards-gardens/")}">Yards/Gardens</a></li>
+              <li><a href="${pageUrl("/preschools/")}">Pre-Schools</a></li>
+              <li><a href="${pageUrl("/car-cleaning/")}">Car Cleaning</a></li>
+              <li><a href="${pageUrl("/fumigation/")}">Fumigation</a></li>
             </ul>
           </div>
           <div class="footer-col">
             <h3>Domestic Work</h3>
             <ul>
-              <li><a href="${pageUrl("washing/")}">Washing</a></li>
-              <li><a href="${pageUrl("iron/")}">Ironing</a></li>
-              <li><a href="${pageUrl("folding/")}">Folding</a></li>
-              <li><a href="${pageUrl("windows/")}">Windows</a></li>
-              <li><a href="${pageUrl("curtains/")}">Curtains</a></li>
-              <li><a href="${pageUrl("dishes/")}">Dishes</a></li>
-              <li><a href="${pageUrl("cupboard-cleaning/")}">Cupboard Cleaning</a></li>
-              <li><a href="${pageUrl("wardrobe-organising/")}">Wardrobe Organising</a></li>
+              <li><a href="${pageUrl("/washing/")}">Washing</a></li>
+              <li><a href="${pageUrl("/iron/")}">Ironing</a></li>
+              <li><a href="${pageUrl("/folding/")}">Folding</a></li>
+              <li><a href="${pageUrl("/windows/")}">Windows</a></li>
+              <li><a href="${pageUrl("/curtains/")}">Curtains</a></li>
+              <li><a href="${pageUrl("/dishes/")}">Dishes</a></li>
+              <li><a href="${pageUrl("/cupboard-cleaning/")}">Cupboard Cleaning</a></li>
+              <li><a href="${pageUrl("/wardrobe-organising/")}">Wardrobe Organising</a></li>
             </ul>
           </div>
           <div class="footer-col">
@@ -126,9 +126,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <ul>
               <li><strong>Email: </strong><a href="mailto:workandhands@gmail.com">workandhands@gmail.com</a></li>
               <li><strong>Call: <br></strong><a href="tel:+27 12 345 6789">+27 12 345 6789</a> | <a href="tel:+27 82 423 5466">+27 82 423 5466</a></li>
-              <li><a href="${pageUrl("about/")}">About WORK&HANDS</a></li>
-              <li><a href="${pageUrl("booking/")}">Book a Service</a></li>
-              <li><a href="${pageUrl("contact/")}">Contact Us</a></li>
+              <li><a href="${pageUrl(/"about/")}">About WORK&HANDS</a></li>
+              <li><a href="${pageUrl("/booking/")}">Book a Service</a></li>
+              <li><a href="${pageUrl("/contact/")}">Contact Us</a></li>
               <li><strong>Location: </strong><br><a href="https://www.google.com/maps/search/?api=1&query=146+18th+Ave+Atteridgeville" target="_blank" rel="noopener noreferrer">146, 18th Avenue Street <br>Extension 7, 9154 <br>Atteridgeville, Pretoria West</a></li>
             </ul>
           </div>
