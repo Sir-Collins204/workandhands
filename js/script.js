@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="footer-col">
             <h3>Services</h3>
             <ul>
-              <li><a href="/cleaning")}">Cleaning</a></li>
+              <li><a href="/cleaning">Cleaning</a></li>
               <li><a href="/churches">Churches</a></li>
               <li><a href="/offices">Business/Offices</a></li>
               <li><a href="/yards-gardens">Yards/Gardens</a></li>
